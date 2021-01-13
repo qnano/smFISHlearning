@@ -14,4 +14,4 @@ https://visualstudio.microsoft.com/vs/
 
 http://www.diplib.org/download
 
-For help on running the code, please read the manual. Added comments with/in the different function m-files will also help a user to find his/her way in the code
+For help on running the code, please read the manual. Added comments with/in the different function m-files will also help a user to find his/her way in the code. The example data can be downloaded from https://figshare.com/articles/dataset/Example_data/13568438.
