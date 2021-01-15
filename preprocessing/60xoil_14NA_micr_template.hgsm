@@ -1,0 +1,9 @@
+# Huygens Microscopic parameter template file
+# Format: nested Tcl-style list
+# Saved: Tue Feb 05 16:27:22 GMT 2019
+
+info {title {Microscopic parameter template} version 2.0 templateName 60x_1.4oil date {Tue Feb 05 16:27:22 GMT 2019}}
+taskList {setp setPDimProp setPDimCooProp}
+setp {s { 0.139 0.139 0.2 1.000000} iFacePrim -20.000 iFaceScnd 1.0e10 micr {nipkow nipkow nipkow nipkow} pr {416.7 416.7 416.7 416.7} ex {641 488 568 405} em {670 520 570 460} na 1.4 ri 1.450 ril 1.515 ps 4.22 exBeamFill {2.00 2.00 2.00 2.00} imagingDir upward objQuality good pcnt {1 1 1 1} ppu {1.000 1.000 1.000 1.000} baseline {0.000 0.000 0.000 0.000} lineAvgCnt {1.000 1.000 1.000 1.000} stedMode {vortexPulsed vortexPulsed vortexPulsed vortexPulsed} stedLambda {676 676 676 676} stedSatFact {30.00 30.00 30.00 30.00} stedImmunity {10 10 10 10} sted3D {0 0 0 0} stedCoeff {{2.10 8.00 0.0100 2.10 8.00 0.0100} {2.10 8.00 0.0100 2.10 8.00 0.0100} {2.10 8.00 0.0100 2.10 8.00 0.0100} {2.10 8.00 0.0100 2.10 8.00 0.0100}} spimNA {0.030 0.030 0.030 0.030} spimExc {gauss gauss gauss gauss} spimFill {0.500 0.500 0.500 0.500} spimFocusOff {0.000 0.000 0.000 0.000} spimCenterOff {0.000 0.000 0.000 0.000} spimDir {0.000 0.000 0.000 0.000} spimGaussWidth {4.000 4.000 4.000 4.000} scatterModel {none none none none} scatterFreePath {1000.000 1000.000 1000.000 1000.000} scatterRelContrib {0.0 0.0 0.0 0.0} scatterBlurring {0.000 0.000 0.000 0.000}}
+setPDimProp {detModel ZeissAiry spacing 0.0 phi 0.0 aspectRatio 1.0 postMirror none}
+setPDimCooProp {detPinhPos {{0.0 0.0}} detPinhRad 0.0}

@@ -1,0 +1,19 @@
+# Huygens Deconvolution template file
+# Format: nested Tcl-style list
+# Saved: Mon Feb 04 16:49:55 GMT 2019
+
+info {title {Deconvolution template} version 2.4 templateName decon_60xSI_SD date {Mon Feb 04 16:49:55 GMT 2019}}
+taskList {autocrop stabilize adjbl cmle:0 cmle:1 cmle:2 cmle:3 zdrift stabilize:post shift:0 shift:1 shift:2 shift:3}
+autocrop {enabled 0}
+stabilize {enabled 0}
+adjbl {enabled 0 ni 0}
+cmle:0 {reduceMode auto psfMode auto psfPath {} it 40 q 0.1 bgMode lowest bgRadius 0.7 brMode auto varPsf off varPsfCnt 1 blMode off pad auto mode fast timeOut 10000 bg 65.57946595630958 sn 40 psfChan {}}
+cmle:1 {reduceMode auto psfMode auto psfPath {} it 40 q 0.1 bgMode lowest bgRadius 0.7 brMode auto varPsf off varPsfCnt 1 blMode off pad auto mode fast timeOut 10000 bg 0.0 sn 30 psfChan {}}
+cmle:2 {reduceMode auto psfMode auto psfPath {} it 40 q 0.1 bgMode lowest bgRadius 0.7 brMode auto varPsf off varPsfCnt 1 blMode off pad auto mode fast timeOut 10000 bg 28.16666589296149 sn 40 psfChan {}}
+cmle:3 {reduceMode auto psfMode auto psfPath {} it 40 q 0.1 bgMode lowest bgRadius 0.7 brMode auto varPsf off varPsfCnt 1 blMode off pad auto mode fast timeOut 10000 bg 0.0 sn 30 psfChan {}}
+zdrift {enabled 0 survey single chan 0 filter median filterSize 3}
+stabilize:post {enabled 0 dim z mode corr rot 0 crop original}
+shift:0 {q standard vector {0.0 0.0 0.0} reference 1 channel - lambdaEm {} lambdaEx {} lambdaSted {} mType {} estMethod {}}
+shift:1 {q standard vector {0.0 0.0 0.0} reference 1 channel - lambdaEm {} lambdaEx {} lambdaSted {} mType {} estMethod {}}
+shift:2 {q standard vector {0.0 0.0 0.0} reference 1 channel - lambdaEm {} lambdaEx {} lambdaSted {} mType {} estMethod {}}
+shift:3 {q standard vector {0.0 0.0 0.0} reference 1 channel - lambdaEm {} lambdaEx {} lambdaSted {} mType {} estMethod {}}
